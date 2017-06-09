@@ -14,7 +14,7 @@ For rare Linux distributions without DEB or RPM package managers, please follow 
 
 1. Disconnect your TREZOR device.
 2. Create new file `/etc/udev/rules.d/51-trezor.rules` in your favourite text editor (root privileges are necessary).
-3. Copy the following two lines, paste them into the file and save it.
+3. Copy the following two lines, paste them into the file and save it (Note: if you are using Arch Linux, then omit the first line - your device will not work with it present).
 
 ::
 
